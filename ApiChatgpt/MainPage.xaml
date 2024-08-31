@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ApiChatgpt.MainPage">
+
+    <StackLayout Padding="20">
+        <Entry x:Name="MessageEntry" Placeholder="Escribe tu mensaje aquí" />
+        <Button Text="Enviar" Clicked="Button_Clicked"/>
+        <Label x:Name="ResponseLabel" Text="Respuesta de ChatGPT aparecerá aquí" 
+               VerticalOptions="StartAndExpand" 
+               HorizontalOptions="FillAndExpand" 
+               TextColor="Black" 
+               FontSize="Medium"/>
+    </StackLayout>
+
+</ContentPage>
